@@ -157,7 +157,7 @@ function App() {
                           <h3 className="coach__name">Faker</h3>
                           <div className="coach__rating">⭐⭐⭐⭐⭐</div>
                           <p className="coach__description">{language === 'en' ? 'Description about the coach.' : "Description de l'entraîneur."}</p>
-                          <button className="button--primary">{language === 'en' ? 'Learn More' : 'En savoir plus'}</button>
+                          <Link to="/book" className="button--primary">{language === 'en' ? 'Book Now' : 'Réservez maintenant'}</Link>
                         </div>
                       </div>
                       <div className="coach">
@@ -166,7 +166,7 @@ function App() {
                           <h3 className="coach__name">Canyon</h3>
                           <div className="coach__rating">⭐⭐⭐⭐⭐</div>
                           <p className="coach__description">{language === 'en' ? 'Description about the coach.' : "Description de l'entraîneur."}</p>
-                          <button className="button--primary">{language === 'en' ? 'Learn More' : 'En savoir plus'}</button>
+                          <Link to="/book" className="button--primary">{language === 'en' ? 'Book Now' : 'Réservez maintenant'}</Link>
                         </div>
                       </div>
                       <div className="coach">
@@ -175,11 +175,11 @@ function App() {
                           <h3 className="coach__name">Perkz</h3>
                           <div className="coach__rating">⭐⭐⭐⭐⭐</div>
                           <p className="coach__description">{language === 'en' ? 'Description about the coach.' : "Description de l'entraîneur."}</p>
-                          <button className="button--primary">{language === 'en' ? 'Learn More' : 'En savoir plus'}</button>
+                          <Link to="/book" className="button--primary">{language === 'en' ? 'Book Now' : 'Réservez maintenant'}</Link>
                         </div>
                       </div>
                     </div>
-                    <button className="button--secondary">{language === 'en' ? 'View All Coaches' : 'Voir tous les entraîneurs'}</button>
+                    <Link to="/book" className="button--secondary">{language === 'en' ? 'View All Coaches' : 'Voir tous les entraîneurs'}</Link>
                   </section>
                 </Element>
                 <Element name="why-coaching-section">
@@ -188,23 +188,30 @@ function App() {
                     <div className="why-coaching__content" dangerouslySetInnerHTML={{ __html: coachingBenefits }}></div>
                     <img src={coachingChart} alt="Coaching Chart" className="why-coaching__image" />
                   </section>
-                </Element>
+                  </Element>
                 <Element name="faq-section">
                   <section className="faq">
                     <h2 className="faq__title">{language === 'en' ? 'Frequently Asked Questions' : 'Questions fréquemment posées'}</h2>
-                    <div className="faq__list">
-                      <div className="faq__item">
-                        <h3 className="faq__question">{language === 'en' ? 'Question 1?' : 'Question 1?'}</h3>
-                        <p className="faq__answer">{language === 'en' ? 'Answer to question 1.' : 'Réponse à la question 1.'}</p>
-                      </div>
-                      <div className="faq__item">
-                        <h3 className="faq__question">{language === 'en' ? 'Question 2?' : 'Question 2?'}</h3>
-                        <p className="faq__answer">{language === 'en' ? 'Answer to question 2.' : 'Réponse à la question 2.'}</p>
-                      </div>
-                      <div className="faq__item">
-                        <h3 className="faq__question">{language === 'en' ? 'Question 3?' : 'Question 3?'}</h3>
-                        <p className="faq__answer">{language === 'en' ? 'Answer to question 3.' : 'Réponse à la question 3.'}</p>
-                      </div>
+                    <div className="faq__contact">
+                      <h3>{language === 'en' ? 'Contact Us' : 'Contactez-nous'}</h3>
+                      <p>{language === 'en' ? 'Telephone: (123) 456-7890' : 'Téléphone: (123) 456-7890'}</p>
+                      <p>{language === 'en' ? 'Email: info@summonerschool.com' : 'Email: info@summonerschool.com'}</p>
+                    </div>
+                    <div className="faq__content">
+                      <h3>{language === 'en' ? 'Q: What is Summoner School?' : 'Q: Qu\'est-ce que Summoner School ?'}</h3>
+                      <p>{language === 'en' ? 'A: Summoner School is a coaching service for League of Legends players looking to improve their skills and climb the ranks.' : 'R: Summoner School est un service de coaching pour les joueurs de League of Legends cherchant à améliorer leurs compétences et à gravir les échelons.'}</p>
+                      <h3>{language === 'en' ? 'Q: How do I book a coaching session?' : 'Q: Comment réserver une séance de coaching ?'}</h3>
+                      <p>{language === 'en' ? 'A: You can book a session by clicking on the "Book Now" button next to the coach of your choice and following the instructions.' : 'R: Vous pouvez réserver une séance en cliquant sur le bouton "Réservez maintenant" à côté de l\'entraîneur de votre choix et en suivant les instructions.'}</p>
+                      <h3>{language === 'en' ? 'Q: What are the rates for coaching?' : 'Q: Quels sont les tarifs pour le coaching ?'}</h3>
+                      <p>{language === 'en' ? 'A: Rates vary by coach and are listed next to each coach\'s profile.' : 'R: Les tarifs varient selon l\'entraîneur et sont indiqués à côté du profil de chaque entraîneur.'}</p>
+                      <h3>{language === 'en' ? 'Q: Can I get a refund if I\'m not satisfied?' : 'Q: Puis-je obtenir un remboursement si je ne suis pas satisfait ?'}</h3>
+                      <p>{language === 'en' ? 'A: Yes, we offer a satisfaction guarantee. If you\'re not happy with your coaching session, please contact us for a refund.' : 'R: Oui, nous offrons une garantie de satisfaction. Si vous n\'êtes pas satisfait de votre séance de coaching, veuillez nous contacter pour un remboursement.'}</p>
+                      <h3>{language === 'en' ? 'Q: Do you offer group coaching sessions?' : 'Q: Offrez-vous des séances de coaching de groupe ?'}</h3>
+                      <p>{language === 'en' ? 'A: Yes, we offer both individual and group coaching sessions. Please contact us for more details.' : 'R: Oui, nous offrons des séances de coaching individuelles et de groupe. Veuillez nous contacter pour plus de détails.'}</p>
+                      <h3>{language === 'en' ? 'Q: How do I prepare for my coaching session?' : 'Q: Comment puis-je me préparer pour ma séance de coaching ?'}</h3>
+                      <p>{language === 'en' ? 'A: Make sure to have a stable internet connection, a working microphone, and be ready to share your gameplay replays with your coach.' : 'R: Assurez-vous d\'avoir une connexion Internet stable, un microphone fonctionnel et soyez prêt à partager vos replays de gameplay avec votre entraîneur.'}</p>
+                      <h3>{language === 'en' ? 'Q: What can I expect from a coaching session?' : 'Q: Que puis-je attendre d\'une séance de coaching ?'}</h3>
+                      <p>{language === 'en' ? 'A: You can expect personalized feedback, strategic insights, and professional guidance tailored to your gameplay.' : 'R: Vous pouvez vous attendre à des retours personnalisés, des idées stratégiques et des conseils professionnels adaptés à votre gameplay.'}</p>
                     </div>
                   </section>
                 </Element>
