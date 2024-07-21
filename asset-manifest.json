@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/summoner-school-p2/static/css/main.87c1f3b4.css",
+    "main.js": "/summoner-school-p2/static/js/main.045ff37f.js",
+    "static/js/453.3d9d1c2f.chunk.js": "/summoner-school-p2/static/js/453.3d9d1c2f.chunk.js",
+    "static/media/Review-background.jpg": "/summoner-school-p2/static/media/Review-background.83848c618bb2f7b1d703.jpg",
+    "static/media/Coaches-background.jpg": "/summoner-school-p2/static/media/Coaches-background.b4c4a9f701f9cd7966cf.jpg",
+    "static/media/Why-get-coaching2.jpg": "/summoner-school-p2/static/media/Why-get-coaching2.00460ae2661c9cb259b2.jpg",
+    "static/media/coach1.jpg": "/summoner-school-p2/static/media/coach1.c08e10cd9b7fe9c4070c.jpg",
+    "static/media/coaching-chart.PNG": "/summoner-school-p2/static/media/coaching-chart.50b9d2dbda88f720b307.PNG",
+    "static/media/coach2.jpg": "/summoner-school-p2/static/media/coach2.6c6fc65d87e20da5b771.jpg",
+    "static/media/league-of-legends.jpg": "/summoner-school-p2/static/media/league-of-legends.58df56449a610b9b978c.jpg",
+    "static/media/coach3.jpg": "/summoner-school-p2/static/media/coach3.3a985bd4e200022b64b2.jpg",
+    "static/media/background.webp": "/summoner-school-p2/static/media/background.ee4642a1810b47446257.webp",
+    "static/media/logo.png": "/summoner-school-p2/static/media/logo.b6bd415a61035b1dd3d7.png",
+    "index.html": "/summoner-school-p2/index.html",
+    "main.87c1f3b4.css.map": "/summoner-school-p2/static/css/main.87c1f3b4.css.map",
+    "main.045ff37f.js.map": "/summoner-school-p2/static/js/main.045ff37f.js.map",
+    "453.3d9d1c2f.chunk.js.map": "/summoner-school-p2/static/js/453.3d9d1c2f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87c1f3b4.css",
+    "static/js/main.045ff37f.js"
+  ]
+}
