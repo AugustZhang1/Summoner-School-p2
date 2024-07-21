@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Summoner-School-p2/static/css/main.17136738.css",
-    "main.js": "/Summoner-School-p2/static/js/main.aafc98ba.js",
+    "main.js": "/Summoner-School-p2/static/js/main.333426b9.js",
     "static/js/453.3d9d1c2f.chunk.js": "/Summoner-School-p2/static/js/453.3d9d1c2f.chunk.js",
     "static/media/Review-background.jpg": "/Summoner-School-p2/static/media/Review-background.83848c618bb2f7b1d703.jpg",
     "static/media/Coaches-background.jpg": "/Summoner-School-p2/static/media/Coaches-background.b4c4a9f701f9cd7966cf.jpg",
@@ -15,11 +15,11 @@
     "static/media/logo.png": "/Summoner-School-p2/static/media/logo.b6bd415a61035b1dd3d7.png",
     "index.html": "/Summoner-School-p2/index.html",
     "main.17136738.css.map": "/Summoner-School-p2/static/css/main.17136738.css.map",
-    "main.aafc98ba.js.map": "/Summoner-School-p2/static/js/main.aafc98ba.js.map",
+    "main.333426b9.js.map": "/Summoner-School-p2/static/js/main.333426b9.js.map",
     "453.3d9d1c2f.chunk.js.map": "/Summoner-School-p2/static/js/453.3d9d1c2f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.17136738.css",
-    "static/js/main.aafc98ba.js"
+    "static/js/main.333426b9.js"
   ]
 }
