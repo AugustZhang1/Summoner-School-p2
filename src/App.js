@@ -120,8 +120,8 @@ function App() {
                         <div className="review__date">00/00/0000</div>
                       </div>
                       <div className="review__content">
-                        <div className="review__username">Username</div>
-                        <div className="review__text">{language === 'en' ? 'Their Review' : 'Leur avis'}</div>
+                        <div className="review__username">Joe</div>
+                        <div className="review__text">{language === 'en' ? 'Amazing' : 'Leur avis'}</div>
                       </div>
                     </div>
                     <div className="review">
@@ -130,8 +130,8 @@ function App() {
                         <div className="review__date">00/00/0000</div>
                       </div>
                       <div className="review__content">
-                        <div className="review__username">Username</div>
-                        <div className="review__text">{language === 'en' ? 'Their Review' : 'Leur avis'}</div>
+                        <div className="review__username">Bob</div>
+                        <div className="review__text">{language === 'en' ? 'I went 0 - 20 but i had 10cs per min' : 'Je suis allé de 0 à 20 mais j avais 10cs par minute'}</div>
                       </div>
                     </div>
                     <div className="review">
@@ -140,8 +140,8 @@ function App() {
                         <div className="review__date">00/00/0000</div>
                       </div>
                       <div className="review__content">
-                        <div className="review__username">Username</div>
-                        <div className="review__text">{language === 'en' ? 'Their Review' : 'Leur avis'}</div>
+                        <div className="review__username">Videofun8</div>
+                        <div className="review__text">{language === 'en' ? 'Still hardstuck Iron 4' : 'Iron 4 toujours bloqué'}</div>
                       </div>
                     </div>
                   </div>
@@ -156,25 +156,25 @@ function App() {
                         <div className="coach__details">
                           <h3 className="coach__name">Faker</h3>
                           <div className="coach__rating">⭐⭐⭐⭐⭐</div>
-                          <p className="coach__description">{language === 'en' ? 'Description about the coach.' : "Description de l'entraîneur."}</p>
+                          <p className="coach__description">{language === 'en' ? 'Hello I am Faker and I main Midlane I will teach you how to become a 4 time world champion just like me' : "Bonjour, je suis Faker et je suis Midlane principal. Je vais vous apprendre à devenir 4 fois champion du monde tout comme moi.."}</p>
                           <Link to="/book" className="button--primary">{language === 'en' ? 'Book Now' : 'Réservez maintenant'}</Link>
                         </div>
                       </div>
                       <div className="coach">
                         <img src={coachImage2} alt="Coach 2" className="coach__image" />
                         <div className="coach__details">
-                          <h3 className="coach__name">Canyon</h3>
+                          <h3 className="coach__name">Tyler1</h3>
                           <div className="coach__rating">⭐⭐⭐⭐⭐</div>
-                          <p className="coach__description">{language === 'en' ? 'Description about the coach.' : "Description de l'entraîneur."}</p>
+                          <p className="coach__description">{language === 'en' ? 'Hello I am Tyler1 and I have hit challenger in a 5 lanes, I will coach on how to do the same!' : "Bonjour, je m'appelle Tyler1 et j'ai frappé un challenger dans un 5 voies, je vais vous coacher sur la façon de faire de même !"}</p>
                           <Link to="/book" className="button--primary">{language === 'en' ? 'Book Now' : 'Réservez maintenant'}</Link>
                         </div>
                       </div>
                       <div className="coach">
                         <img src={coachImage3} alt="Coach 3" className="coach__image" />
                         <div className="coach__details">
-                          <h3 className="coach__name">Perkz</h3>
+                          <h3 className="coach__name">ThebausFFS</h3>
                           <div className="coach__rating">⭐⭐⭐⭐⭐</div>
-                          <p className="coach__description">{language === 'en' ? 'Description about the coach.' : "Description de l'entraîneur."}</p>
+                          <p className="coach__description">{language === 'en' ? 'Hello I am the Bausffs and the creator of the Baussian Law, I will show you how to minize deaths during laneing phase ' : "Bonjour je suis les Bausff et le créateur de la loi Baussienne, je vais vous montrer comment minimiser les décès pendant la phase de laneing"}</p>
                           <Link to="/book" className="button--primary">{language === 'en' ? 'Book Now' : 'Réservez maintenant'}</Link>
                         </div>
                       </div>
